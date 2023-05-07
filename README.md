@@ -55,3 +55,15 @@ v-on DOM
 @click="warn('test', $event)"
 @click="(event)=>warn('test', event)"
 e.keyCode
+
+### computed
+<div @click="total = val">click</div>
+// (total = val) -> set(val) set 先觸發再 get
+computed:{
+  total:{
+    get(){},
+    set(value){
+      
+    }
+  }
+}

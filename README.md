@@ -1,5 +1,8 @@
 # notes
 
+
+
+
 ## html
 Canvas、SVG -- 用于绘画的元素，canvas绘制的图片会失真而SVG绘制的不会失真。
 video、audio -- 用于播放视频和音频的媒体。
@@ -39,6 +42,7 @@ https://www.zhangxinxu.com/wordpress/2020/03/position-sticky-rules/
 ### **在嚴格模式下，this 的值不會被自動設置為全局對象，而是為 undefined。**  
 因此，在模組中使用 this 關鍵字時，會出現錯誤，無法訪問對象的屬性。
 
+function.length // args 的長度
 
 ```main.js
 "use strict";

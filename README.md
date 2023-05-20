@@ -28,13 +28,19 @@ webSocket -- 单个TCP连接上进行全双工通讯的协议。
   </div>
 </div>
 ```
-position: fixed 能够相对于浏览器窗口放置有一个条件，那就是不能有任何祖先元素设置了 transform、perspective 或者 filter 样式属性。也就是说如果我们想要用 CSS transform 为祖先节点 <div class="outer"> 设置动画，就会不小心破坏模态框的布局！
 
-这个模态框的 z-index 受限于它的容器元素。如果有其他元素与 <div class="outer"> 重叠并有更高的 z-index，则它会覆盖住我们的模态框。
-  
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/position
+position :fixed;
+当元素祖先的 transform、perspective、filter 或 backdrop-filter 属性非 none 时，容器由视口改为该祖先。
   
 https://www.zhangxinxu.com/wordpress/2020/03/position-sticky-rules/
 设置了position:sticky粘性定位的元素的父元素如果高度计算值和粘性定位元素一样高，则垂直滚动的时候，粘性定位效果是不会出现的。
+  
+  
+  
+https://stackoverflow.com/questions/6421966/css-overflow-x-visible-and-overflow-y-hidden-causing-scrollbar-issue
+overflow-y:hidden; overflow-x 自動加上滾輪 ? 
   
 ## js 
 在 JavaScript 中，模組使用的是嚴格模式，因此 this 關鍵字的行為與非模組的情況有所不同。

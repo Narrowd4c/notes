@@ -42,6 +42,11 @@ https://www.zhangxinxu.com/wordpress/2020/03/position-sticky-rules/
 https://stackoverflow.com/questions/6421966/css-overflow-x-visible-and-overflow-y-hidden-causing-scrollbar-issue
 overflow-y:hidden; overflow-x 自動加上滾輪 ? 
   
++ learn css  
+  + clip-path
+  + [animation(transition)-time-function:] (https://easings.net/)
+  + GSAP js 套件
+  
 ## js 
 在 JavaScript 中，模組使用的是嚴格模式，因此 this 關鍵字的行為與非模組的情況有所不同。
 

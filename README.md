@@ -29,6 +29,7 @@ webSocket -- 单个TCP连接上进行全双工通讯的协议。
 </div>
 ```
 
+[position absloute default](https://stackoverflow.com/questions/19968979/what-are-the-default-top-left-botton-or-right-values-when-positionabsolute-is)
 
 https://developer.mozilla.org/zh-CN/docs/Web/CSS/position
 position :fixed;

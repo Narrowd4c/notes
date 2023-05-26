@@ -1,0 +1,1 @@
+function.length  // args 的長度 (不包含 ...args)

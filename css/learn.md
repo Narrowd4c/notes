@@ -1,3 +1,0 @@
-[clip-path](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)
-[conic-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/conic-gradient)
-[calc](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)

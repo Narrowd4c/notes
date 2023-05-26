@@ -1,8 +1,6 @@
 # notes
 
 
-
-
 ## html
 Canvas、SVG -- 用于绘画的元素，canvas绘制的图片会失真而SVG绘制的不会失真。
 video、audio -- 用于播放视频和音频的媒体。

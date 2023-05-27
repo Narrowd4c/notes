@@ -1,10 +1,12 @@
 ## [function.length](https://zh.javascript.info/function-object#shu-xing-length)  
+
+```js
 function fn(a,b,c, ...d){
   console.log('in function', fn.length)
 }
 console.log('outside', fn.length)
 fn()
-
+```
 
 ## structuredClone 深拷貝 取代 JSON.stringify() + JSON.parse()
 [Supper Type](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm#supported_types)

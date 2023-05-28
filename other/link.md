@@ -29,6 +29,10 @@ https://www.creative-tim.com/
 https://primeng.org/
 
 
+### Ai
+
+https://drive.google.com/file/d/1b58wr4uJJ7dKcamPJ5yuGoYwIvvbkLZ_/view
+
 ### Other 
 [ad block](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 

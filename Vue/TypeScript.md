@@ -8,7 +8,17 @@ export default {
   }
 }
 ```
+### [擃展全局數性](https://cn.vuejs.org/guide/typescript/options-api.html#augmenting-global-properties)
+```
+import axios from 'axios'
 
+declare module 'vue' {
+  interface ComponentCustomProperties {
+    $http: typeof axios
+    $translate: (key: string) => string
+  }
+}
+```
 
 ### 使用 PropType 这个工具类型来标记更复杂的 props 类型：
 因為 props 没有办法指定多层级对象或函数签名之类的复杂类型。

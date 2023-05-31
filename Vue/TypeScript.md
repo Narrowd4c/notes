@@ -22,7 +22,7 @@ declare module 'vue' {
 
 ### 使用 PropType 这个工具类型来标记更复杂的 props 类型：
 因為 props 没有办法指定多层级对象或函数签名之类的复杂类型。
-
+```
 import type {PropType} from 'vue';
 
 interface Book {
@@ -40,7 +40,7 @@ export default {
     callback:Function as PropType<(id:number)=>void>
   }
 }
-
+```
 
 ### emit
 ```
@@ -66,7 +66,7 @@ export default defineComponent({
 ### computed
 
 自動推導 return 的類型, 但也可以手動加
-
+```
 import { defineComponent } from 'vue'
 
 export default defineComponent({
@@ -92,9 +92,9 @@ export default defineComponent({
     }
   }
 })
-
+```
 ### methods
-  
+```
 import { defineComponent } from 'vue'
 
 export default defineComponent({
@@ -104,3 +104,4 @@ export default defineComponent({
     }
   }
 })
+```

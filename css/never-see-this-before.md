@@ -1,3 +1,7 @@
 - [clip-path](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)  
 - [conic-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/conic-gradient)   
 - [calc](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)    
+- [backdrop-filter](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter)
+- [inline-size](https://developer.mozilla.org/en-US/docs/Web/CSS/inline-size)
+- [block-size](https://developer.mozilla.org/en-US/docs/Web/CSS/block-size)
+- [filter-function](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function)

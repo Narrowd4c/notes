@@ -5,3 +5,4 @@
 - [inline-size](https://developer.mozilla.org/en-US/docs/Web/CSS/inline-size)
 - [block-size](https://developer.mozilla.org/en-US/docs/Web/CSS/block-size)
 - [filter-function](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function)
+- [scroll-snap-type](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)

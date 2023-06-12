@@ -29,3 +29,16 @@ arr[2][0][0] = 45
 console.log(arr)
 console.log(arr2)
 ```
+
+## 默认参数的计算
+```
+function showMessage(from, text = anotherFunction()) {
+  // anotherFunction() 仅在没有给定 text 时执行
+  // 其运行结果将成为 text 的值
+}
+```
+在 JavaScript 中，每次函数在没带个别参数的情况下被调用，默认参数会被计算出来。
+
+在上面的例子中，如果传递了参数 text，那么 anotherFunction() 就不会被调用。
+
+如果没传递参数 text，那么 anotherFunction() 就会被调用。
